@@ -61,7 +61,7 @@ app.layout = html.Div([
 
 def update_graph(x_option, y_option, marker):
         
-    df = pd.read_csv("spacetitanic.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/Herrikez/Dashboards/main/spacetitanic.csv")
     df = df.dropna()
         
     fig = px.scatter(
